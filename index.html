@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script>
+      //   alert();
+      $(document).ready(function () {
+        $("#submtbtn").click(function () {
+          alert("Pakistan");
+        });
+      });
+    </script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      background-image: url('backgrnd.jpg');
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      overflow-x: hidden;
+    "
+  >
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <div style="text-align: center">
+      <form action="index.php" method="get">
+        <h1 style="color: white">Contact Form</h1>
+        <label for="fname" class="text">Your Name</label><span> </span
+        ><input
+          type="text"
+          name="firstname"
+          id="fname"
+          placeholder="First Name"
+        />
+        <span> </span
+        ><input
+          type="text"
+          name="lastname"
+          id="lname"
+          placeholder="Last Name"
+        /><br /><br />
+        <label for="pno" class="text">Phone No</label><span> </span
+        ><input type="text" name="pno" id="pno" placeholder="Phone Number" />
+        <br /><br />
+        <label for="cgpa" class="text">CGPA</label><span> </span
+        ><input
+          type="number"
+          name="cgpa"
+          id="cgpa"
+          placeholder="CGPA"
+        /><br /><br />
+        <button type="submit" id="submtbtn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
